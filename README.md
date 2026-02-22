@@ -11,44 +11,35 @@ d’analyse du trafic urbain en temps réel
 
 ## Sommaire
 
-# 1. Présentation du Contexte et des Enjeux
+# Sommaire
 
-# 2. Architecture Globale de la Solution
-
-## 2.1. La Source de Données
-### 2.1.1 La Source de Données Batch : L'Historique du Trafic
-### 2.1.2 La Source de Données Streaming : Flux Temps Réel
-
-## 2.2 Orchestration avec Apache Airflow
-### 2.2.1 La Persistance : Pourquoi une base de données Postgres ?
-### 2.2.2 Description des trois DAGs
-
-## 2.3 Ingestion de données (Apache Kafka)
-### 2.3.1 Pourquoi Kafka est-il indispensable ?
-### 2.3.2 Les piliers de l'infrastructure Kafka
-
-## 2.4. Traitement des données : Apache Spark (Batch & Streaming)
-### 2.4.1 Architecture du Cluster Spark sur Docker
-### 2.4.2 Traitement en Temps Réel (Streaming)
-### 2.4.3 Traitement par Lots (Batch)
-
-## 2.5. Stockage Data Lake (MinIO)
-### 2.5.1 Organisation des Buckets
-### 2.5.2 Arrivée des données Batch
-### 2.5.3 Arrivée des données en temps réel (Streaming)
-### 2.5.4 Pourquoi le format Parquet ?
-
-# 3. Difficultés Rencontrées et Solutions
-## 3.1 Communication Inter-Conteneurs
-## 3.2 Contrainte Technique : Pilotage de Spark par Airflow
-
-# 4. Justification des choix techniques
-
-# 5. Limites et Axes d'Amélioration
-
-# 6. Conclusion
-
-# 7. Annexes
+- **1. Présentation du Contexte et des Enjeux**
+- **2. Architecture Globale de la Solution**
+    - **2.1. La Source de Données**
+        - 2.1.1 La Source de Données Batch : L'Historique du Trafic
+        - 2.1.2 La Source de Données Streaming : Flux Temps Réel
+    - **2.2 Orchestration avec Apache Airflow**
+        - 2.2.1 La Persistance : Pourquoi une base de données Postgres ?
+        - 2.2.2 Description des trois DAGs
+    - **2.3 Ingestion de données (Apache Kafka)**
+        - 2.3.1 Pourquoi Kafka est-il indispensable ?
+        - 2.3.2 Les piliers de l'infrastructure Kafka
+    - **2.4. Traitement des données : Apache Spark (Batch & Streaming)**
+        - 2.4.1 Architecture du Cluster Spark sur Docker
+        - 2.4.2 Traitement en Temps Réel (Streaming)
+        - 2.4.3 Traitement par Lots (Batch)
+    - **2.5. Stockage Data Lake (MinIO)**
+        - 2.5.1 Organisation des Buckets
+        - 2.5.2 Arrivée des données Batch
+        - 2.5.3 Arrivée des données en temps réel (Streaming)
+        - 2.5.4 Pourquoi le format Parquet ?
+- **3. Difficultés Rencontrées et Solutions**
+    - 3.1 Communication Inter-Conteneurs
+    - 3.2 Contrainte Technique : Pilotage de Spark par Airflow
+- **4. Justification des choix techniques**
+- **5. Limites et Axes d'Amélioration**
+- **6. Conclusion**
+- **7. Annexes**
 
 
 ### 1. Présentation du Contexte et des Enjeux
