@@ -13,9 +13,9 @@ d’analyse du trafic urbain en temps réel
 
 1. Présentation du Contexte et des Enjeux
 2. Architecture Globale de la Solution
-    2.1. La Source de Données
-    2.1.1 La Source de Données Batch : L'Historique du Trafic
-    2.1.2 La Source de Données Streaming : Flux Temps Réel
+2. 1. La Source de Données
+2. 1. 1 La Source de Données Batch : L'Historique du Trafic
+2. 1. 2 La Source de Données Streaming : Flux Temps Réel
     2.2 Orchestration avec Apache Airflow
     2.2.1 La Persistance : Pourquoi une base de données Postgres?
     2.2.2 Description des trois DAGs
