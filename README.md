@@ -56,6 +56,7 @@ traiter simultanément des flux de données en temps réel et des volumes de don
 L'ensemble est conteneurisé avec Docker, garantissant une isolation des services et une
 portabilité totale de la solution
 
+![Description of the image](Architecture.png)
 
 #### 2.1 La Source de Données
 
